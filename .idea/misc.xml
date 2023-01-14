@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android projects/Niecter/app/src/main/res/drawable/edit_text_bg.xml" value="0.1715" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/drawable/gradient_shape.xml" value="0.1715" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/activity_about_user.xml" value="0.264" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/activity_message.xml" value="0.264" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/activity_otp.xml" value="0.2359375" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/content_message.xml" value="0.10989583333333333" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/fragment_matches.xml" value="0.25" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/fragment_message.xml" value="0.264" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/item_new_match.xml" value="0.25" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/item_perfect_match.xml" value="0.25" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/item_user_layout.xml" value="0.2" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/receive_layout.xml" value="0.25" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/layout/sent_layout.xml" value="0.25" />
+        <entry key="..\:/android projects/Niecter/app/src/main/res/menu/main_bottom_view.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

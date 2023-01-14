@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/main_color"/>
+
+        <ImageView
+            android:id="@+id/userImagePP"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/view1"
+            app:layout_constraintBottom_toBottomOf="@id/view1"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/userNameEtFieldPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            app:layout_constraintTop_toBottomOf="@id/view1"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints"
+            app:endIconMode="clear_text"
+            android:layout_marginHorizontal="20dp"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userNameETPP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#616161"
+                android:maxLines="1"
+                android:background="@drawable/edit_text_bg"
+                android:clickable="false"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/userBioEtFieldPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter about yourself"
+            app:layout_constraintTop_toBottomOf="@id/userNameEtFieldPP"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints"
+            app:endIconMode="clear_text"
+            android:layout_marginHorizontal="20dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userBioEtPP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#616161"
+                android:maxLines="1"
+                android:background="@drawable/edit_text_bg"
+                android:clickable="false"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/startBT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:background="@color/edit_text_color"
+            app:layout_constraintTop_toBottomOf="@id/userBioEtFieldPP"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/guideline2"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/editBT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:background="@color/edit_text_color"
+            app:layout_constraintTop_toBottomOf="@id/userBioEtFieldPP"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            app:layout_constraintStart_toEndOf="@id/guideline2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAllCaps="false"
+            />
+
+        <ProgressBar
+            android:id="@+id/aboutprogressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/startBT"
+            app:layout_constraintStart_toStartOf="@id/startBT"
+            app:layout_constraintEnd_toEndOf="@id/startBT"
+            app:layout_constraintBottom_toBottomOf="@id/startBT"
+            android:visibility="invisible"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

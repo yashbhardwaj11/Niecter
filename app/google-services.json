@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062125297812",
+    "project_id": "niecter",
+    "storage_bucket": "niecter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062125297812:android:948b44f74f771f280e9481",
+        "android_client_info": {
+          "package_name": "com.yash.niecter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062125297812-qe1c7u2hef5iqubk2tupvjh1bp84pls9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXl8C8KMWOyM-V13j6D2vSJnxNeQes1DQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062125297812-qe1c7u2hef5iqubk2tupvjh1bp84pls9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
