@@ -4,9 +4,9 @@ Niecter is a Dating platform. you can find your perfect match here
 
 ## Installation
 
-Download the apk from [here](https://drive.google.com/file/d/1tN2vHfpVbEY71DZsXatFCV4n2KN2GsnA/view?usp=share_link)
+Download link will be available soon [](https://drive.google.com/file/d/1tN2vHfpVbEY71DZsXatFCV4n2KN2GsnA/view?usp=share_link)
 
-user below code to clone repository
+use below code to clone repository
 ```bash
 git clone https://github.com/yashbhardwaj11/Niecter.git
 ```
